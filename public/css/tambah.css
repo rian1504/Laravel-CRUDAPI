@@ -1,0 +1,40 @@
+form{
+    overflow: hidden;
+}
+
+label{
+    float: inline-start;
+    padding-right: 5px;
+    width: 250px;
+    margin-left: 20px;
+}
+
+input{
+    float: inline-end;
+    width: 700px;
+}
+
+button{
+    background-color: greenyellow;
+    margin-left: 500px;
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button.back{
+    background-color: lightblue;
+    margin-left: auto;
+    color: black;
+}
+.form-control{
+    width: 700px;
+}
+
+input{
+    width: 600px;
+}
+
+body{
+    background-color: salmon;
+}

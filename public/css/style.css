@@ -1,0 +1,47 @@
+.content{
+    display: block;
+    margin: 30px auto;
+    width: 1000px;
+    overflow: hidden;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    width: 1000px;
+    text-align: center;
+}
+
+th, td {
+    padding: 20px;
+}
+
+th {
+    background-color: salmon;
+}
+.tambah{
+    background-color: greenyellow;
+    margin: 10px auto;
+    display: block;
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+}
+
+tbody tr td:nth-child(even){
+    background-color: lightsteelblue;
+}
+
+tbody tr td:nth-child(odd){
+    background-color: lightyellow;
+}
+
+.besar{
+    width: 50%;
+}
